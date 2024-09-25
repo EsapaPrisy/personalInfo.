@@ -1,3 +1,4 @@
+
 package in28minutes.com;
 
 import java.util.Scanner;
@@ -55,3 +56,4 @@ public class MyInformation {
 	}
 
 }
+
