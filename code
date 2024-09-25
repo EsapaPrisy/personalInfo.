@@ -1,0 +1,57 @@
+package in28minutes.com;
+
+import java.util.Scanner;
+
+public class MyInformation {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Enter your name");
+		String name = scanner.nextLine();
+		
+		System.out.print("Enter your age");
+		int age = scanner.nextInt();
+		scanner.nextLine();
+		
+		System.out.print("Enter your gender (Male/Female)");
+		String gender = scanner.nextLine(); 
+		
+		System.out.print("Enter your occupation");
+		String occupation = scanner.nextLine();
+		
+		System.out.print("Enter your marital status (Single/Married/Divorced)");
+		String maritalstatus = scanner.nextLine();
+		
+		System.out.print("Enter your address");
+		String address = scanner.nextLine();
+		
+		
+		System.out.println("\nMY INFORMATION");
+		System.out.println();
+		
+		
+		System.out.println("My Name Is: " + name);
+		System.out.println();
+		
+		System.out.println("My Name Age Is: " + age);
+		System.out.println();
+		
+		System.out.println("My Gender Is: " + gender);
+		System.out.println();
+		
+		System.out.println("My Occupation Is: " + occupation);
+		System.out.println();
+		
+		System.out.println("My Marital Status Is: " + maritalstatus);
+		System.out.println();
+		
+		System.out.println("My Address Is: " + address);
+		
+		
+		scanner.close();
+		
+
+	}
+
+}
